@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0 -o ---ssl true --ssl-key c:/users/wang/myapp3/myapp33/ssl/nopassword.key  --ssl-cert c:/users/wang/myapp3/myapp33/ssl/testnew2.crt",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,6 +18,8 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "ng-connection-service": "^1.0.4",
+    "ng-zorro-antd-mobile": "^5.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
